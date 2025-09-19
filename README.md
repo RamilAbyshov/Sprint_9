@@ -69,7 +69,8 @@ Sprint_9/
 ├── docker-compose.yml               # Docker Compose конфигурация (Selenoid + тесты)
 ├── Dockerfile                       # Docker образ для запуска тестов
 ├── README.md                       
-└── requirements.txt                 # Зависимости Python проекта
+├── requirements.txt                 # Зависимости Python проекта
+└── Screenshot 2025-09-19 212958.png # Скриншот с пройденным пайплайном
 
 ```
 
@@ -119,3 +120,6 @@ http://localhost:8081
 **CI/CD интеграция**
 
 Тесты автоматически запускаются в GitHub Actions при пуше в ветку `main`. Отчеты доступны во вкладке Actions репозитория.
+
+Скриншот с пройденным пайплайном
+![Screenshot 2025-09-19 212958.png](Screenshot%202025-09-19%20212958.png)
